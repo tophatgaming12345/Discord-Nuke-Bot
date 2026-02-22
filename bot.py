@@ -1,6 +1,6 @@
 # Disclaimer: This is only for entertainment and educational purposes.  
 # I’m not responsible for what you do with it or any consequences.  
-# Made by tophat
+# Made by Vexi :3
 
 import discord
 from discord.ext import commands
@@ -9,6 +9,9 @@ import aiohttp
 import io
 from datetime import datetime, timedelta
 import random
+from colorama import init
+
+init()
 
 # CONFIG #
 class Config:
@@ -86,15 +89,19 @@ async def download_image(url):
 
 @bot.event
 async def on_ready():
-    print(f'''
+    purple = "\033[95m"
+    reset = "\033[0m"
+
+    print(f"""{purple}
 ████████╗░█████╗░██████╗░██╗░░██╗░█████╗░████████╗  ███╗░░██╗██╗░░░██╗██╗░░██╗███████╗  ██████╗░░█████╗░████████╗
 ╚══██╔══╝██╔══██╗██╔══██╗██║░░██║██╔══██╗╚══██╔══╝  ████╗░██║██║░░░██║██║░██╔╝██╔════╝  ██╔══██╗██╔══██╗╚══██╔══╝
 ░░░██║░░░██║░░██║██████╔╝███████║███████║░░░██║░░░  ██╔██╗██║██║░░░██║█████═╝░█████╗░░  ██████╦╝██║░░██║░░░██║░░░
 ░░░██║░░░██║░░██║██╔═══╝░██╔══██║██╔══██║░░░██║░░░  ██║╚████║██║░░░██║██╔═██╗░██╔══╝░░  ██╔══██╗██║░░██║░░░██║░░░
 ░░░██║░░░╚█████╔╝██║░░░░░██║░░██║██║░░██║░░░██║░░░  ██║░╚███║╚██████╔╝██║░╚██╗███████╗  ██████╦╝╚█████╔╝░░░██║░░░
 ░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░  ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝  ╚═════╝░░╚════╝░░░░╚═╝░░░
+
 Logged in as {bot.user}
-''')
+{reset}""")
 
 @bot.event
 async def on_command(ctx):
