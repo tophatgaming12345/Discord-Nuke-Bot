@@ -2,7 +2,6 @@
 
 """
 from colorama import init, Fore
-from rich import print
 
 # Initialize colorama
 init(autoreset=True)
